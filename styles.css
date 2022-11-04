@@ -1,0 +1,48 @@
+#root {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-card {
+    width: 230px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.my-card img {
+    border-radius: 5px;
+}
+
+.my-card h2 {
+    margin: 0;
+    padding-top: 10px;
+    color: #555;
+    font-size: medium;
+}
+
+.my-card p {
+    margin-top: 10px;
+    padding-top: 0;
+    font-size: small;
+    line-height: 180%;
+}
+
+.my-card button {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.my-card button:hover {
+    background-color: #444;
+}
+
+.my-card button:active {
+    transform: scale(.97);
+}
